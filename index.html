@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheaf Table</title>
+    <!-- daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind cdn -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                green:'#0BE58A',
+              }
+            }
+          }
+        }
+      </script>
+      <!-- fontawsume -->
+      <script src="https://kit.fontawesome.com/62a0fae379.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <!-- nav start -->
+    <div class="navbar bg-base-100 w-11/12 mx-auto">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              
+                <li><a href="">Home</a></li>
+                <li><a href="">Recipes</a></li>
+                <li><a href=""> About</a></li>
+                <li><a href="">Search</a></li>
+                
+        </ul>
+          </div>
+          <a class="btn btn-ghost text-2xl font-bold">Recipe Calories</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-xl font-semibold">
+            
+                
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Recipes</a></li>
+                  <li><a href=""> About</a></li>
+                  <li><a href="">Search</a></li>
+                  
+          </ul>
+        </div>
+        <div class="navbar-end ">
+            <div class="form-control max-sm:hidden md:block">
+                
+                <input type="text" placeholder="Search" class="input px-4 py-2 bg-slate-300 border-[1px] rounded-3xl">
+        </div>
+        <div class="ml-3">
+            <i class="fa-regular fa-user bg-green p-2 rounded-full"></i>
+          </div>
+      </div>
+      </div>
+      
+     <!-- nav end -->
+
+     <!--banner start  -->
+     <div
+  class="hero w-11/12 mx-auto bg-center bg-no-repeat rounded-3xl "
+
+  style="background-image:  url(./B9A7-CHEFS-TABLE/img2.jpeg);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="">
+      <h1 class="mb-5 text-4xl font-bold mt-5">Discover an exceptional  <br>cooking  class tailored  <br>for you!</h1>
+      <p class="mt-2">
+        Provident cupiditate voluptatem et in. <br> Quaerat fugiat ut assumenda excepturi exercitationem
+        quasi. <br> In deleniti eaque aut repudiandae et a id nisi.
+      </p>
+      <div class="mt-10 mb-20" >
+      <button class="border-2 font-bold rounded-3xl px-3 py-2 bg-[#0BE58A] text-black">Explore Now</button>
+      
+      <button class="border-2 font-bold rounded-3xl px-3 py-2 ml-3 ">Our Feedback</button>
+    </div>
+    </div>
+  </div>
+</div>
+     <!-- banner end -->
+      <!-- Our Recipes -->
+       <section class="w-11/12 mt-16 mx-auto ">
+        <h2 class="text-center text-4xl font-bold ">
+            Our Recipes
+        </h2>
+        <p class="text-center font-medium mt-3">
+            Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus  vulputate netus pharetra rhoncus. <br> Eget urna volutpat curabitur elementum mauris aenean neque. 
+        </p>
+        <!-- Spaghetti Bolognese start -->
+         <div class="grid grid-cols-1 lg:grid-cols-3 gap-3">
+        <div class="mt-10 border-[1px] p-3 bg-slate-100 rounded-2xl">
+         <div class="w-full ">
+            <img class="rounded-xl" src="./B9A7-CHEFS-TABLE/img3.webp" alt="">
+         </div>
+         <h1 class="text-xl font-bold mt-2">
+            Spaghetti Bolognese
+         </h1>
+         <p class="font-semibold mt-3">
+            Classic Italian pasta dish with savory <br> meat sauce.
+         </p>
+         <hr class="mt-4">
+            <h4 class="font-medium mt-6">
+                Ingredients: 6
+            </h4>
+            <ul class="list-disc ml-8">
+                <li>500g ground beef
+                    </li>
+                <li>1 onion, chopped
+                   </li>
+                <li> 2 cloves garlic, minced</li>
+            </ul>
+         <hr class="mt-4">
+         <!-- icons start -->
+         <div class="flex gap-10 mt-4">
+            <div>
+                
+                <p class="" ><i class="fa-regular fa-clock mr-3 "></i>30 minutes</p>
+             </div>
+             
+                <p>
+                    <i class="fa-solid fa-droplet mr-3"></i>600 calories
+                </p>
+             </div>
+        
+         <!-- icons end -->
+         <a class="btn bg-[#0BE58A] mt-4 rounded-3xl px-5 py-2 text-center"
+             >Want to Cook</a>
+        </div>
+        <!-- 2nd card -->
+        <div class="mt-10 border-[1px] p-3 bg-slate-100 rounded-2xl">
+            <div class="w-full ">
+               <img class="rounded-xl" src="./B9A7-CHEFS-TABLE/img4.webp" alt="">
+            </div>
+            <h1 class="text-xl font-bold mt-2">
+                Chicken Caesar Salad
+            </h1>
+            <p class="font-semibold mt-3">
+               Classic Italian pasta dish with savory <br> meat sauce.
+            </p>
+            <hr class="mt-4">
+               <h4 class="font-medium mt-6">
+                   Ingredients: 6
+               </h4>
+               <ul class="list-disc ml-8">
+                   <li>500g ground beef
+                       </li>
+                   <li>1 onion, chopped
+                      </li>
+                   <li> 2 cloves garlic, minced</li>
+               </ul>
+            <hr class="mt-4">
+            <!-- icons start -->
+            <div class="flex gap-10 mt-4">
+               <div>
+                   
+                   <p class="" ><i class="fa-regular fa-clock mr-3 "></i>30 minutes</p>
+                </div>
+                
+                   <p>
+                       <i class="fa-solid fa-droplet mr-3"></i>600 calories
+                   </p>
+                </div>
+           
+            <!-- icons end -->
+             <a class="btn bg-[#0BE58A] mt-4 rounded-3xl px-5 py-2"
+             >Want to Cook</a>
+            
+           </div>
+
+           <!-- card 3 -->
+            <div class="border-[1px]  bg-slate-100 rounded-2xl mt-10 ">
+            <h3 class="text-center text-2xl font-semibold pt-5 ">
+                Want to cook: 01 
+            </h3>
+            <hr class="w-9/12 mx-auto mt-4">
+            <div class=" mt-3 bg-slate-200 p-7 ">
+            <div class=" grid grid-cols-2 lg:grid-cols-4  gap-3 text-center items-center">
+                <p>1</p>
+               
+                    <p>
+                        Chicken <br> Caesar 
+                    </p>
+                   
+               
+               
+                    <p>
+                        20 <br> minutes 
+                    </p>
+                    
+                
+                
+                    <p>
+                        400 <br>calories
+                    </p>
+                   
+                
+               
+            </div>
+            <a class="btn bg-[#0BE58A] mt-4 rounded-3xl px-5 py-2 "
+            >Preparing</a>
+           </div>
+        <h2 class="text-center text-2xl font-semibold pt-4">
+            Currently cooking: 02 
+        </h2>
+        <div class="overflow-x-auto bg-slate-200 ">
+            <table class="table">
+              <!-- head -->
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Name</th>
+                  <th>Time</th>
+                  <th>Calories</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- row 1 -->
+                <tr>
+                  <th>1</th>
+                  <td>Spaghetti Bolognese</td>
+                  <td>30 minutes</td>
+                  <td>600 calories</td>
+                </tr>
+                <!-- row 2 -->
+                <tr>
+                  <th>2</th>
+                  <td>Chicken Caesar Salad</td>
+                  <td>30 minutes</td>
+                  <td>600 calories</td>
+                </tr>
+                
+               
+              </tbody>
+            </table>
+           
+          </div>
+          <div class="flex gap-3 justify-end mt-4">
+            <p class="w-[100px] font-semibold">Total Time = 
+                45 minutes</p>
+             <p class="w-[120px] font-semibold">Total Calories = 
+                1050 calories</p>   
+        </div>
+        </div>
+        </div>
+       </section>
+       <!-- Our Recipes end  -->
+    
+</body>
+</html>
